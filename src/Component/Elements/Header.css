@@ -1,0 +1,61 @@
+.HeaderContainer {
+  min-height: 33px;
+  background: #68c0ee;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.HeaderLogo > * {
+  padding-left: 5px;
+  color: #fff;
+}
+img.HeaderLogoImg {
+  max-height: 32px;
+  width: auto;
+  float: left;
+}
+.HeaderLogoText {
+  float: left;
+  line-height: 33px;
+  font-weight: 500;
+}
+body .css-ahj2mt-MuiTypography-root {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 100%;
+  line-height: 35px;
+  height: 38px;
+}
+body .css-j204z7-MuiFormControlLabel-root {
+  margin: 0;
+}
+.favIcon {
+  padding: 0 15px 0 30px;
+}
+.favIcon:hover,
+.HeaderLogo:hover .HeaderLogoImg,
+.heartIcon:hover {
+  transform: scale(1.2);
+}
+
+.favIcon,
+.HeaderLogoImg,
+.heartIcon {
+  transition: all 0.2s ease-in-out;
+}
+.rightHeader {
+  display: flex;
+  justify-content: end;
+}
+
+@media only screen and (max-width: 600px) {
+  .rightHeader {
+    justify-content: space-between;
+  }
+  .favIcon {
+    padding: 0;
+    padding-left: 1%;
+  }
+  body .css-ahj2mt-MuiTypography-root {
+    font-size: 90%;
+  }
+}

@@ -1,0 +1,89 @@
+.SearchDiv {
+  display: flex;
+  justify-content: center;
+}
+.favoriteThisCity {
+  cursor: pointer;
+}
+.weatherContainerDiv {
+  max-width: 76vw;
+  background-color: #98d4f3;
+  border-radius: 24px;
+  margin: auto;
+  margin-top: 30px;
+  min-height: 65vh;
+}
+.todayWeather {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  padding-left: 3%;
+  padding-top: 3%;
+}
+.topWeatherContainerDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.todayDesc {
+  font-size: 300%;
+  color: #fff;
+  font-weight: 500;
+}
+.OneDayWeatherDiv {
+  background-color: #fff;
+  border-radius: 24px;
+  color: #599fc4;
+  min-height: 18vh;
+  padding: 0;
+}
+
+.row.topWeatherContainerDiv > .row {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 4% 0;
+}
+
+.dayText {
+  margin-top: 30%;
+  font-weight: 500;
+}
+.row.topWeatherContainerDiv > .row.topContainer {
+  display: flex;
+  justify-content: space-between;
+}
+img.todayWeatherImg,
+.favoriteThisCity > svg {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.favoriteThisCity > svg:hover {
+  transform: scale(1.2);
+}
+
+.favoriteThisCity > svg {
+  transition: all 0.2s ease-in-out;
+}
+@media only screen and (max-width: 575px) {
+  div.weatherContainerDiv {
+    max-width: 99vw;
+  }
+  .OneDayWeatherDiv {
+    margin: 1%;
+    width: 90%;
+    min-height: 8vh;
+    border-radius: 86% 45px;
+  }
+
+  .dayText {
+    margin-top: 2%;
+  }
+}
+@media only screen and (max-width: 992px) and (min-width: 575px) {
+  .dayText {
+    font-size: 80%;
+  }
+}

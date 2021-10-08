@@ -1,0 +1,20 @@
+.OneFavoriteCardDiv {
+  background: #68c0ee99;
+  border-radius: 24px;
+  padding: 2% 0;
+  margin: 1%;
+  cursor: pointer;
+}
+.WeatherText {
+  font-weight: 300;
+  color: #164760;
+}
+.noFavorites {
+  margin-top: 2%;
+  font-size: 150%;
+  color: cornflowerblue;
+  font-weight: 700;
+}
+.row.favoriteCards {
+  margin-top: 1%;
+}

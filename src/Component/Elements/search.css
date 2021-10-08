@@ -1,0 +1,17 @@
+body .css-1kpdewa-MuiAutocomplete-root {
+  width: 30%;
+}
+.SearchDiv.row {
+  margin-top: 30px;
+}
+.searchContainer > div {
+  margin: auto;
+}
+.errorSearch {
+  color: red;
+}
+@media only screen and (max-width: 575px) {
+  body .css-1kpdewa-MuiAutocomplete-root {
+    width: 60%;
+  }
+}
