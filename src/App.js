@@ -13,6 +13,7 @@ import { Interpolator } from "react-apply-darkmode";
 
 function App() {
   // git2
+  // lipaz msg
   const loadingSpinner = useSelector((state) => state.loadingSpinner);
   const isNormalMode = useSelector((state) => state.isNormalMode);
   const dispatch = useDispatch();
