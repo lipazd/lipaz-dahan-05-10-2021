@@ -12,6 +12,7 @@ import { useEffect } from "react";
 import { Interpolator } from "react-apply-darkmode";
 
 function App() {
+  // git2
   const loadingSpinner = useSelector((state) => state.loadingSpinner);
   const isNormalMode = useSelector((state) => state.isNormalMode);
   const dispatch = useDispatch();
